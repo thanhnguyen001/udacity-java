@@ -1,0 +1,6 @@
+2024-07-13 09:46:17.649 ERROR 17000 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Username or password is incorrect: user =  com.example.demo.model.requests.CreateUserRequest@6dd282f
+2024-07-13 09:48:22.891 ERROR 17000 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Password is at least 8 characters: password = 12345
+2024-07-13 09:54:58.527  INFO 17000 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-13 09:54:58.530  INFO 17000 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 09:54:58.532  INFO 17000 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-13 09:54:58.535  INFO 17000 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
